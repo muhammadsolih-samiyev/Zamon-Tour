@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.select {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.select_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+hr {
+    margin-top: 20px;
+    opacity: 0.3;
+}
+
+.select_h {
+    font-size: 35px;
+}
+
+.select_text {
+    margin-top: 20px;
+    width: 40%;
+    opacity: 0.7;
+}
+
+.select_menu {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 80%;
+    gap: 40px;
+}
+
+.select_pic {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    border-radius: 20px;
+}
+
+.select_menu_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.select_title {
+    margin-top: 100px;
+}
+
+.select_title_p {
+    opacity: 0.6;
+    font-size: 18px;
+}
+
+.select_title_h {
+    font-size: 20px;
+}
+
+.select_title_btn {
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 30px;
+    border: none;
+    background-color: #22B3C1;
+    color: rgb(244, 236, 236);
+}
+
+.select_title_btn:hover {
+    background-color: rgb(33, 154, 165);
+}
+
+.malumot_part {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    opacity: 0.4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select_m {
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1500px) {
+    .select_text {
+        width: 50%;
+    }
+
+    .select_menu {
+        align-items: center;
+        gap: 50px;
+    }
+
+    .select_pic {
+        width: 110%;
+    }
+
+    .select_title_p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .select_text {
+        width: 60%;
+    }
+
+    .select_menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .select_menu_text {
+        width: 80%;
+        align-items: start;
+        justify-content: start;
+        margin-left: -110px;
+    }
+
+    .select_pic {
+        width: 80%;
+    }
+}
+
+@media (max-width: 850px) {
+    .select_text {
+        width: 60%;
+    }
+
+    .select_menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .select_menu_text {
+        width: 80%;
+        align-items: start;
+        justify-content: start;
+        margin-left: -110px;
+    }
+
+    .select_pic {
+        width: 80%;
+    }
+
+    .select_title_btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .select_h {
+        font-size: 28px;
+    }
+
+    .select_text {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .select_menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-left: 50px;
+    }
+
+    .select_pic {
+        width: 100%;
+    }
+
+    .select_title_p {
+        font-size: 16px;
+    }
+
+    .select_menu_text {
+        margin-left: 1px;
+        width: 100%;
+    }
+
+    .select_title_h {
+        font-size: 18px;
+    }
+
+    .select_title_btn {
+        padding: 15px 20px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .select_h {
+        font-size: 15px;
+    }
+
+    .select_malumot {
+        font-size: 10px;
+    }
+
+    .select_text {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .select_menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .select_pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .select_title_p {
+        font-size: 12px;
+    }
+
+    .select_title_btn {
+        width: 40%;
+        padding: 10px 10px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 330px) {
+    .select_h {
+        font-size: 20px;
+    }
+
+    .select_malumot {
+        font-size: 10px;
+    }
+
+    .select_text {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .select_menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .select_pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .select_title_p {
+        font-size: 12px;
+    }
+
+    .select_title_btn {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+}

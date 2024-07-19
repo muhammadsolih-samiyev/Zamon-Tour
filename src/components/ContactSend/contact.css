@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 1rem; 
+}
+
+.contact {
+  max-width: 70%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 300px;
+}
+
+.map iframe {
+  border: 0;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  width: 100%;
+  height: 450px;
+}
+
+.contact_sms {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 30px;
+  justify-content: space-between;
+}
+
+.contact_sms h1 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  font-size: 2.5em; 
+}
+
+.contact_sms h1 span {
+  color: #0056b3;
+}
+
+.contact-set {
+  margin-top: 50px;
+}
+
+.Contact-stime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contact-sms1 {
+  flex: 1 1 45%;
+}
+
+.contact-sms1 label {
+  display: block;
+  font-size: 1.2em; 
+  margin-bottom: 0px;
+}
+
+.contact-sms1 input,
+.contact-sms1 select {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.contact-item {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-item select {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 20px; 
+  border-radius: 20px;
+  font-size: 1em; 
+  border: 1px solid #ccc;
+}
+
+#country {
+  width: 100%;
+}
+
+.contact-item button {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  border: none;
+  background-color: #22B3C1;
+  color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-item button:hover {
+  background-color: #1f88b5;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.9rem; 
+  }
+
+  .contact {
+    max-width: 90%; 
+  }
+
+  .contact_sms {
+    width: 90%; 
+  }
+
+  .contact-sms1 label {
+    font-size: 1.1em; 
+  }
+
+  .contact-sms1 input,
+  .contact-sms1 select {
+    margin-bottom: 20px; 
+    font-size: 0.9em; 
+  }
+
+  .contact-item select {
+    margin-bottom: 15px; 
+    font-size: 0.9em; 
+  }
+
+  .contact-item button {
+    font-size: 1.1em;
+  }
+
+  .contactmap {
+    width: 20%;
+    height: 10vh;
+  }
+
+  .contact_make {
+    font-size: 10px;
+  }
+  .map iframe {
+    height: 250px; 
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.8rem; /* Further decrease base font size */
+  }
+
+  .contact_sms h1 {
+    font-size: 2em; /* Adjust font size */
+  }
+
+  .contact-sms1 label {
+    font-size: 1em; /* Adjust font size */
+  }
+
+  .contact-sms1 input,
+  .contact-sms1 select {
+    font-size: 0.8em; /* Adjust font size */
+  }
+
+  .contact-item select {
+    font-size: 0.8em; /* Adjust font size */
+  }
+
+  .contact-item button {
+    font-size: 1em; /* Adjust font size */
+  }
+}
